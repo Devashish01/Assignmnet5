@@ -7,17 +7,17 @@ class Wave
 		
 		int arr[]=new int[10];
 
-        int i,temp=0;
+        int i,j,temp=0;
         for(i=0;i<10;i++)
              arr[i]=input.nextInt();
 
 
 
 
-        for(  i=0;i<arr.length;i++)
+        for(i=0;i<arr.length;i++)
 		{
         	
-			for(int j=i+1;j<arr.length;j++)
+			for(j=i+1;j<arr.length;j++)
 			{
 				if(arr[j] < arr[i])
 				{
@@ -46,7 +46,7 @@ class Wave
 public class Assi4 {
 
     public static void main(String[] args){
-        System.out.println("Enter any 10 numbers ");
+        System.out.println("Enter 10 numbers");
         Wave obj=new Wave();
         obj.fun();
      
